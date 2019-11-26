@@ -1,3 +1,5 @@
+/*--Content Snippets--*/
+
 .snippets {
     display: flex;
     justify-content: space-between;
@@ -8,7 +10,6 @@
 
 .snippets__item {
     width: 268px;
-    height: 61px;
     .title_size_s::after {
         content: ".";
         color: $attentionColor;

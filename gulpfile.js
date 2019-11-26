@@ -44,7 +44,7 @@ gulp.task('watch', function() {
             baseDir: './dist'
         },
         notify: false,
-        browser: 'google-chrome'
+        // browser: 'google-chrome'
     });
     gulp.watch(['app/sass/**/*.sass', 'app/sass/**/*.scss'], gulp.parallel('sass'));
     gulp.watch('app/*.html', gulp.parallel('html'));

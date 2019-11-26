@@ -1,16 +1,18 @@
+/*--Content Our team--*/
+
 .team {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: {
+        top: 40px;
+        bottom: 40px;
+    }
 }
 
 .team__people {
     width: 300px;
     height: 150px;
-    margin: {
-        top: 40px;
-        bottom: 40px;
-    };
 }
 
 .team__img {
