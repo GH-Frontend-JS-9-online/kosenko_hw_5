@@ -1,0 +1,91 @@
+.top {
+    background: {
+        image: url('../img/top_bg.jpg');
+        size: cover;
+        // size: contain;
+        repeat: no-repeat;
+        position: center;
+    };
+    min-height: 1057px;
+}
+
+.top__head {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.logo {
+    font-size: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+}
+
+.menu_list {
+    list-style: none;
+}
+
+.menu_link {
+    font-size: 14px;
+    color: #263742;
+    text: {
+        transform: uppercase;
+        decoration: none;
+    };
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.button {
+    width: 171px;
+    height: 64px;
+    margin-top: 40px;
+    color: #fff;
+    font: {
+        family: $fontOpenSans;
+        weight: 700;
+        size: 15px;
+    }
+    background: {
+        color: $attentionColor;
+    }
+    border: none {
+        radius: 7px;
+    };
+}
+
+.slogan {
+    text-transform: uppercase;
+    width: 570px;
+    margin-bottom: 0;
+    font: {
+        size: 48px;
+        family: $fontMontserrat;
+        weight: 700;
+    }
+    line-height: 53px;
+    &::after {
+        content: ".";
+        color: $attentionColor;
+    }
+}
+
+.top__welcome {
+    height: 350px;
+    padding-top: 250px;
+}

@@ -1,0 +1,30 @@
+.snippets {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 85px;
+    min-height: 300px;
+}
+
+.snippets__item {
+    width: 268px;
+    height: 61px;
+    .title_size_s::after {
+        content: ".";
+        color: $attentionColor;
+    }
+}
+
+.link-more {
+    @extend .link__text;
+    text: {
+        decoration: none;
+        transform: uppercase;
+    }
+    &::after {
+        content: "\2192";
+        color: $attentionColor;
+        margin-left: 5px;
+        font-size: 25px;
+    }
+}

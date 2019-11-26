@@ -1,0 +1,359 @@
+.text_size_l {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 40px;
+}
+
+.text_size_m {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+}
+
+.text_size_s {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 22px;
+  color: #9aa0ab;
+}
+
+.title_size_l, .portfolio__title {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.title_size_m, .team__title {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: uppercase;
+}
+
+.title_size_s, .team-name {
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 26px;
+  color: #465065;
+  text-transform: uppercase;
+}
+
+.link__text, .link-more, .team__link {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  color: #fa5c65;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #314a5b;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: auto;
+}
+
+.hidden-menu {
+  display: none;
+}
+
+.top {
+  background-image: url("../img/top_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 1057px;
+}
+
+.top__head {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+}
+
+.top__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.logo {
+  font-size: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+}
+
+.menu_list {
+  list-style: none;
+}
+
+.menu_link {
+  font-size: 14px;
+  color: #263742;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.button {
+  width: 171px;
+  height: 64px;
+  margin-top: 40px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #fa5c65;
+  border: none;
+  border-radius: 7px;
+}
+
+.slogan {
+  text-transform: uppercase;
+  width: 570px;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 53px;
+}
+
+.slogan::after {
+  content: ".";
+  color: #fa5c65;
+}
+
+.top__welcome {
+  height: 350px;
+  padding-top: 250px;
+}
+
+.snippets {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 85px;
+  min-height: 300px;
+}
+
+.snippets__item {
+  width: 268px;
+  height: 61px;
+}
+
+.snippets__item .title_size_s::after, .snippets__item .team-name::after {
+  content: ".";
+  color: #fa5c65;
+}
+
+.link-more, .team__link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link-more::after, .team__link::after {
+  content: "\2192";
+  color: #fa5c65;
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.portfolio {
+  display: flex;
+}
+
+.portfolio__item {
+  width: 380px;
+}
+
+.portfolio__img {
+  background-image: url("../img/MacBook.png");
+  background-repeat: no-repeat;
+  background-position-x: -130px;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  margin-right: 80px;
+}
+
+.portfolio__title {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.portfolio__title::after {
+  content: ".";
+  color: #fa5c65;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.team__people {
+  width: 300px;
+  height: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.team__img {
+  width: 119px;
+  height: 119px;
+  float: left;
+  margin-right: 20px;
+  border: none;
+  border-radius: 59px;
+}
+
+.team__title {
+  margin-bottom: 0;
+}
+
+.team__title::after {
+  content: ".";
+  color: #fa5c65;
+}
+
+.team__text {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  color: #f0454c;
+  margin-top: 0;
+}
+
+.team-name {
+  font-size: 22px;
+  line-height: 54px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.team__link {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.horizontal-line {
+  width: 940px;
+  height: 1px;
+  background-color: #e6eaed;
+  margin-top: 60px;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 93px;
+}
+
+.footer__copyrights {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 60px;
+  color: #b9c0c6;
+}
+
+.footer-icons {
+  min-width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 991.98px) {
+  /*----Burger menu----*/
+  .menu-icons {
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    top: 37px;
+    right: 260px;
+    cursor: pointer;
+    z-index: 2;
+    width: 25px;
+  }
+  .menu {
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    margin: 0;
+    padding: 10px;
+    width: 200px;
+  }
+  .hidden-menu:checked ~ .menu {
+    display: block;
+    right: 300px;
+  }
+  .menu__list {
+    list-style: none;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .menu__link {
+    text-decoration: none;
+    color: #8d81ab;
+    font-size: 14px;
+    line-height: 41px;
+  }
+  .menu__link:hover {
+    color: #777;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: #8d81ab;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .burger:nth-child(1) {
+    top: 0;
+  }
+  .burger:nth-child(2) {
+    top: 13px;
+  }
+  .burger:nth-child(3) {
+    top: 26px;
+  }
+  .hidden-menu:checked ~ .menu-icons {
+    right: 260px;
+  }
+  .hidden-menu:checked ~ .menu-icons .burger:nth-child(1) {
+    transform: rotate(45deg);
+    top: 10px;
+  }
+  .hidden-menu:checked ~ .menu-icons .burger:nth-child(2) {
+    opacity: 0;
+  }
+  .hidden-menu:checked ~ .menu-icons .burger:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 10px;
+  }
+  /*-----------*/
+}

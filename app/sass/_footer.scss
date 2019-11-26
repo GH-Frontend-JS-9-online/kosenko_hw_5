@@ -1,0 +1,32 @@
+.horizontal-line {
+    width: 940px;
+    height: 1px;
+    background: {
+        color: #e6eaed;
+    };
+    margin: {
+        top: 60px;
+    };
+}
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 93px;
+}
+
+.footer__copyrights {
+    font: {
+        size: 13px;
+        family: $fontOpenSans;
+    }
+    line-height: 60px;
+    color: #b9c0c6;
+}
+
+.footer-icons {
+    min-width: 140px;
+    display: flex;
+    justify-content: space-between;
+}

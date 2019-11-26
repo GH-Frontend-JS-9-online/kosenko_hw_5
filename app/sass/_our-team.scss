@@ -1,0 +1,64 @@
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team__people {
+    width: 300px;
+    height: 150px;
+    margin: {
+        top: 40px;
+        bottom: 40px;
+    };
+}
+
+.team__img {
+    width: 119px;
+    height: 119px;
+    float: left;
+    margin: {
+        right: 20px;
+    };
+    border: none {
+        radius: 59px;
+    };
+}
+
+.team__title {
+    @extend .title_size_m;
+    margin: {
+        bottom: 0;
+    };
+    &::after {
+        content: ".";
+        color: $attentionColor;
+    }
+}
+
+.team__text {
+    font: {
+        size: 14px;
+        family: $fontOpenSans;
+    }
+    line-height: 20px;
+    color: $teamColor; 
+    margin-top: 0;
+}
+
+.team-name {
+    @extend .title_size_s;
+    font-size: 22px;
+    line-height: 54px;
+    margin: {
+        top: 0;
+        bottom: 0;
+    }
+}
+
+.team__link {
+    @extend .link-more;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}

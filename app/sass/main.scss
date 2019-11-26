@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'fonts';
+
+body {
+    margin: 0;
+    font-family: $fontMontserrat;
+    color: $mainTextColor;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: auto;
+}
+.hidden-menu {
+    display: none;
+}
+
+@import 'header';
+@import 'snippets';
+@import 'portfolio';
+@import 'our-team';
+@import 'footer';
+@import 'burger';

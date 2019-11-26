@@ -1,0 +1,85 @@
+@media (max-width: 991.98px) {
+  /*----Burger menu----*/
+  .menu-icons {
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    top: 37px;
+    right: 260px;
+    cursor: pointer;
+    z-index: 2;
+    width: 25px;
+  }
+
+  .menu {
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    margin: 0;
+    padding: 10px;
+    width: 200px;
+  }
+
+  .hidden-menu:checked ~ .menu {
+    display: block;
+    right: 300px;
+  }
+
+  .menu__list {
+    list-style: none;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .menu__link {
+    text-decoration: none;
+    color: #8d81ab;
+    font-size: 14px;
+    line-height: 41px;
+  }
+  .menu__link:hover {
+    color: #777;
+  }
+
+  .burger {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: #8d81ab;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .burger:nth-child(1) {
+    top: 0;
+  }
+  .burger:nth-child(2) {
+    top: 13px;
+  }
+  .burger:nth-child(3) {
+    top: 26px;
+  }
+
+  .hidden-menu:checked ~ .menu-icons {
+    right: 260px;
+  }
+
+  .hidden-menu:checked ~ .menu-icons .burger:nth-child(1) {
+    transform: rotate(45deg);
+    top: 10px;
+  }
+
+  .hidden-menu:checked ~ .menu-icons .burger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hidden-menu:checked ~ .menu-icons .burger:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 10px;
+  }
+
+  /*-----------*/
+}

@@ -1,0 +1,65 @@
+.text_size_l {
+    font: {
+        size: 20px;
+        family: $fontOpenSans;
+    }
+    line-height: 40px;
+}
+
+.text_size_m {
+    font: {
+        size: 16px;
+        family: $fontOpenSans;
+    }
+    line-height: 20px;
+}
+
+.text_size_s {
+    font: {
+        size: 15px;
+        family: $fontOpenSans;  
+    };
+    line-height: 22px;
+    color: $textColor;
+}
+
+.title_size_l {
+    font: {
+        size: 40px;
+        family: $fontMontserrat;
+        weight: 700;
+    }
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+
+.title_size_m {
+    font: {
+        size: 32px;
+        family: $fontMontserrat;
+        weight: 700;
+    }
+    line-height: 54px;
+    text-transform: uppercase;
+}
+
+.title_size_s {
+    font: {
+        size: 26px;
+        family: $fontMontserrat;
+        weight: 700;
+    }
+    line-height: 26px;
+    color: $titleColor;
+    text-transform: uppercase;
+}
+
+.link__text {
+    font: {
+        size: 14px;
+        family: $fontMontserrat;
+    }
+    line-height: 20px;
+    color: $attentionColor;
+}
