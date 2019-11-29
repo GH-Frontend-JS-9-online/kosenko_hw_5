@@ -17,34 +17,32 @@
         padding: {
             top: 40px;
         }
-    }
-
-    .portfolio__img {
-        margin: {
-            right: -15px;
+        &__img {
+            margin: {
+                right: -15px;
+            }
         }
     }
 
     .team {
         justify-content: space-around;
     }
-
 }
 
 @media (max-width: 767px) {
 
     .top {
         min-height: 0;
-    }
-
-    .top__menu {
-        align-items: flex-start;
-        margin-top: 10px;
-    }
-
-    .top__welcome {
-        padding: {
-            bottom: 20px;}
+        &__menu {
+            align-items: flex-start;
+            margin-top: 10px;
+        }
+        &__welcome {
+            padding: {
+                bottom: 20px;
+            }
+        }
+    
     }
 
     .social-icons {
@@ -57,11 +55,12 @@
 
 @media (max-width: 576px) {
 
-    .top {
-        background: {
-            image: none;
-        };
-    }
+    // .top {
+    //     background: {
+    //         image: none;
+    //     };
+    // }
+
     .top__welcome {
         padding: {
             top: 0;
@@ -71,7 +70,7 @@
     .slogan {
         width: auto;
         font: {
-            size: 35px;
+            size: 30px;
         }
     }
 
@@ -80,8 +79,15 @@
         align-items: center;
     }
 
-    .portfolio__img {
-        display: none;
+    .portfolio {
+        flex-wrap: wrap;
+        &__img {
+            margin: {
+                bottom: 15px;
+                right: -10px;
+                left: -10px;
+            };
+        }
     }
 
     .footer__block {

@@ -2,34 +2,31 @@
 
 .portfolio {
     display: flex;
-}
-
-.portfolio__item {
-    width: 380px;
-}
-
-.portfolio__img {
-    background: {
-        image: url('../img/MacBook.png');
-        repeat: no-repeat;
-        position-x: -130px;
-    };
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    margin: {
-        right: 80px;
-    };
-}
-
-.portfolio__title {
-    @extend .title_size_l;
-    &::after {
-        content: ".";
-        color: $attentionColor;
+    &__item {
+        width: 380px;
     }
-    margin: {
-        top: 15px;
-        bottom: 0;
-    };
+    &__img {
+        background: {
+            image: url('../img/MacBook.png');
+            repeat: no-repeat;
+            position-x: -130px;
+        };
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+        margin: {
+            right: 80px;
+        };
+    }
+    &__title {
+        @extend .title_size_l;
+        &::after {
+            content: ".";
+            color: $attentionColor;
+        }
+        margin: {
+            top: 15px;
+            bottom: 0;
+        };
+    }
 }
